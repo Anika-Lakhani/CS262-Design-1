@@ -42,7 +42,7 @@ conRefs = {}
 active = []
 
 # list of servers
-server_addresses = [("127.0.0.1", 50052), ("65.112.8.20", 50053), ("127.0.0.1", 50051)]
+server_addresses = [("127.0.0.1", 50051), ("127.0.0.1", 50052), ("127.0.0.1", 50053)]
 
 # An index to keep track of the current active server
 active_server_index = 0

@@ -30,7 +30,7 @@ def Main():
     global leader_elected
     
     # Connect IP & Port for both servers
-    servers = [("127.0.0.1", 50051), ("65.112.8.20", 50052), ("127.0.0.1", 50053)]
+    servers = [("127.0.0.1", 50051), ("127.0.0.1", 50052), ("127.0.0.1", 50053)]
 
     # Attempt to connect to the first server
     current_server_index = 0
